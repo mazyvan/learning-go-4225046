@@ -9,8 +9,8 @@ func main() {
 	// 	println(colors[i])
 	// }
 
-	// for i := range colors {
-	// 	println(colors[i])
+	// for _, color := range colors {
+	// 	println(color)
 	// }
 
 	// for _, color := range colors {
@@ -41,7 +41,9 @@ func main() {
 			goto theEnd
 		}
 	}
-	theEnd : println("end of program")
+
+theEnd:
+	println("end of program")
 	fmt.Printf("Sum: %v\n", sum)
 
 }
